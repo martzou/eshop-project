@@ -5,19 +5,13 @@ session_start();
 if(!empty($_SESSION['cart']) && isset($_POST['checkout'])){
 // let user in
 
-
-
 // send user to home page
 }else{
 
   header('location: index.php');
 }
 
-
-
 ?>
-
-
 
 
 <!DOCTYPE html>
